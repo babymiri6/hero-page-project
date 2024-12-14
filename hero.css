@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    background-color: #F1F1F1;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.active {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+li a {
+    margin: 0px 40px;
+    color: #c5c5c5f2;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+li a:hover:not(.active) {
+    color: #FFFFFF;
+}
+
+.hero {
+    display: flex;
+    padding: 40px;
+    height: 85vh;
+    gap: 100px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 24px;
+    font-size: 3rem;
+}
+
+.tagline {
+    margin-bottom: 40px;
+}
+
+.left-content {
+    flex: 2;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.gradient {
+    background-image: linear-gradient(to left, #26355D, #AF47D2);
+    color: #FFFFFF;
+    border: none;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-image 2s,
+                box-shadow 0.25s;
+}
+
+.gradient:hover {
+    background-image: linear-gradient(to left, #2c3c68, #ba50dd);
+}
+
+.gradient:active {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
